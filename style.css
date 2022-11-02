@@ -8,24 +8,88 @@ body{
     background: linear-gradient(180deg, #121E4A 16.71%, #2D52D9 150.97%) fixed;
 }
 
-main h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 100px;
-    color: aliceblue;
-    
+main .principal {
+    position: relative;
+    margin: 15px auto;
+    background: #e4630e;
+    width: 1500px;
+    height: 800px;
+    border-radius: 25px;
 }
+
 main div .Card1 {
-    box-sizing: content-box;
-    float: left;
-
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-    background: radial-gradient(101.11% 101.11% at 50% 50%, #FFFFFF 0%, rgba(222, 222, 222, 0.85) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    top: 20px;
+    left: 0px;
+    width: 358px;
+    height: 583px;
+    background:radial-gradient(101.11% 101.11% at 50% 50%, #FFFFFF 0%, rgba(222, 222, 222, 0.85) 100%);
     border: 3px solid #4D5FA0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+    border-radius: 25px;   
+}
+
+main div .conteudo{
+    position: relative;
+}
+
+main div .nome1{
+position: absolute;
+left: 20%;
+right: 20%;
+margin-top: 240px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 34px;
+text-align: center;
+
+color: #131F4A;
+} 
+
+main div .nome2{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    margin-top: 265px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    
+    color: #131F4A;
+    } 
+
+    hr{
+        position: relative;
+        width: 60%;
+        top: 310px;
+        color: #131F4A;
+        margin-left: auto;
+        margin-right: auto;
+
+
+        text-align: center;
+
+         
+    }
+
+
+main div .img{
+position: absolute;
+left: 21%;
+right: 20%;
+margin-top: 20px;
+
+
+background: url(FotoPerfil.png);
+height: 200px;
+border: 3px solid #121E4A;
+box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+border-radius: 500px;
 }
