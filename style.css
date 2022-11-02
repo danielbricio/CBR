@@ -18,26 +18,39 @@ main .principal {
 }
 
 main div .Card1 {
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 0px;
-    width: 358px;
-    height: 583px;
+    width: 300px;
+    height: 500px;
+    margin: none;
     background:radial-gradient(101.11% 101.11% at 50% 50%, #FFFFFF 0%, rgba(222, 222, 222, 0.85) 100%);
     border: 3px solid #4D5FA0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;   
 }
 
-main div .conteudo{
-    position: relative;
+main div .img{
+    
+    background: url(FotoPerfil.png);
+    height: 200px;
+    border: 3px solid #121E4A;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 500px;
+
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    right: 15%;
 }
+
 
 main div .nome1{
 position: absolute;
 left: 20%;
 right: 20%;
-margin-top: 240px;
+margin: 0%;
+margin-top: 228px;
 
 font-family: 'Lato';
 font-style: normal;
@@ -49,11 +62,13 @@ text-align: center;
 color: #131F4A;
 } 
 
+
+
 main div .nome2{
     position: absolute;
     left: 20%;
     right: 20%;
-    margin-top: 265px;
+    margin-top: 249px;
     
     font-family: 'Lato';
     font-style: normal;
@@ -68,28 +83,35 @@ main div .nome2{
     hr{
         position: relative;
         width: 60%;
-        top: 310px;
+        top: 285px;
         color: #131F4A;
         margin-left: auto;
         margin-right: auto;
+        border-width: 1px;
+        border-style: solid;
 
-
-        text-align: center;
-
-         
     }
 
 
-main div .img{
+
+ 
+main div p {
 position: absolute;
-left: 21%;
-right: 20%;
-margin-top: 20px;
+left: 6.7%;
+right: 6.7%;
+top: 59%;
+bottom: 27.27%;
 
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-transform: uppercase;
+line-height: 1.5;
+/* identical to box height */
 
-background: url(FotoPerfil.png);
-height: 200px;
-border: 3px solid #121E4A;
-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
-border-radius: 500px;
+text-align: center;
+
+color: #121E4A;
 }
